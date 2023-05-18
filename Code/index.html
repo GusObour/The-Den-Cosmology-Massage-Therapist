@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Den - Cosmology and Massage Therapist</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+  <script src="https://calendar.google.com/calendar/embed?src=obourgod%40gmail.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#booking">Booking</a>
+      <!-- Add more navigation links as needed -->
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Welcome to The Den</h1>
+    <p>Your ultimate destination for cosmology and massage therapy.</p>
+    <a href="#booking" class="cta-button">Book an Appointment</a>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About The Den</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla leo nec cursus fringilla. Aenean nec est ut nunc efficitur maximus. Suspendisse malesuada dapibus lectus, sit amet rhoncus sem interdum at.</p>
+      <!-- Add more content about the shop -->
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service">
+        <img src="service1.jpg" alt="Service 1">
+        <h3>Service 1</h3>
+        <p>Description of Service 1.</p>
+        <p>Price: $XX</p>
+        <p>Average Time: XX minutes</p>
+      </div>
+      <!-- Add more service items -->
+    </div>
+  </section>
+  <section id="booking">
+    <div id="calendar-container">
+        <div id="calendar">
+            <div class="calendar-header">
+              <button id="prev-btn">&lt;</button>
+              <h2 id="month-year"></h2>
+              <button id="next-btn">&gt;</button>
+            </div>
+            <div class="calendar-body">
+              <div class="calendar-days">
+                <div class="day">Sun</div>
+                <div class="day">Mon</div>
+                <div class="day">Tue</div>
+                <div class="day">Wed</div>
+                <div class="day">Thu</div>
+                <div class="day">Fri</div>
+                <div class="day">Sat</div>
+              </div>
+              <div class="calendar-dates"></div>
+            </div>
+          </div>          
+    </div>
+    <div class="container">
+      <h2>Book an Appointment</h2>
+      <form id="eventForm">
+        <label for="summary">Summary:</label>
+        <input type="text" id="summary" required>
+        
+        <label for="description">Description:</label>
+        <textarea id="description" required></textarea>
+        
+        <label for="startDateTime">Start Date & Time:</label>
+        <input type="datetime-local" id="startDateTime" required>
+        
+        <label for="endDateTime">End Date & Time:</label>
+        <input type="datetime-local" id="endDateTime" required>
+        
+        <button type="submit">Book Appointment</button>
+      </form>      
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 The Den. All rights reserved.</p>
+      <p>Operating Hours: Mon-Sat: 9am-6pm | Sun: Closed</p>
+      <p>Address: 123 Main St, City, State, ZIP</p>
+      <p>Phone: 123-456-7890</p>
+      <div class="social-media">
+        <a href="#" class="social-media-link">Facebook</a>
+        <a href="#" class="social-media-link">Instagram</a>
+        <!-- Add more social media links as needed -->
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
